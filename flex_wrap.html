@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox - flex-wrap</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/my.css">
+</head>
+<body>
+
+<div class="principal">
+  <!-- <h2>Properties for the flex container</h2> -->
+  <a href="index.html">Список свойств</a>
+  <div class="control">
+    <h4><a href="http://w3.unpocodetodo.info/css3/flex-wrap.php">flex-wrap</a> <small>( property of the flex container  )</small></h4>
+    <!--nowrap | wrap | wrap-reverse;-->
+    <div class="radio">
+      <input name="flex-wrap" type="radio" class="flex-wrap" id="R21" value="nowrap" checked><label for="R21">nowrap:</label>
+      <input name="flex-wrap" type="radio" class="flex-wrap" id="R22" value="wrap"><label for="R22">wrap:</label>
+      <input name="flex-wrap" type="radio" class="flex-wrap" id="R23" value="wrap-reverse"><label for="R23">wrap-reverse:</label>
+    </div>
+  </div>
+  <div class="flex-container" id="wrap">
+    <div class="item" data-color="2a80b9">
+      <p>1</p>
+    </div>
+    <div class="item" data-color="8f44ad">
+      <p>2</p>
+    </div>
+    <div class="item" data-color="16a086">
+      <p>3</p>
+    </div>
+    <div class="item" data-color="f1c40f">
+      <p>4</p>
+    </div>
+    <div class="item" data-color="e77e23">
+      <p>5</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+<script  src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Animated Flexbox Playground</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/my.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="principal">
+  <!-- <h2>Property for the flex container</h2> -->
+    <a href="index.html">Список свойств</a>
+  <div class="control">
+    <h4><a href="http://w3.unpocodetodo.info/css3/flex-align-items.php">align-items</a> <small>( property of the flex container  )</small></h4>
+    <!-- flex-start | flex-end | center | baseline | stretch;-->
+    <div class="radio">
+      <input name="flex-align-items" type="radio" class="flex-align-items" id="R31" value="align-items-start"><label for="R31">flex-start:</label>
+      <input name="flex-align-items" type="radio" class="flex-align-items" id="R32" value="align-items-end"><label for="R32">flex-end:</label>
+      <input name="flex-align-items" type="radio" class="flex-align-items" id="R33" value="align-items-center"><label for="R33">center:</label>
+      <input name="flex-align-items" type="radio" class="flex-align-items" id="R34" value="align-items-baseline"><label for="R34">baseline:</label>
+      <input name="flex-align-items" type="radio" class="flex-align-items" id="R35" value="align-items-stretch" checked><label for="R35">stretch:</label>
+    </div>
+  </div>
+  <div class="flex-container" id="align">
+    <div class="item" data-color="2a80b9">
+      <p>1</p>
+    </div>
+    <div class="item" data-color="8f44ad">
+      <p>2</p>
+    </div>
+    <div class="item" data-color="16a086">
+      <p style="font-size:50px;">3</p>
+    </div>
+    <div class="item" data-color="f1c40f">
+      <p>4</p>
+    </div>
+    <div class="item" data-color="e77e23">
+      <p>5</p>
+    </div>
+  </div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
